@@ -49,6 +49,7 @@
 						source.connect(audioCtx.destination);
 						source.loop = false;
 						source.start();
+						playsound(audioBuffer)
 						setTimeout(function () {
 							playsound(audioBuffer);
 						}, 65906);
